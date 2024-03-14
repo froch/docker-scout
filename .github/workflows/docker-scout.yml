@@ -57,3 +57,4 @@ jobs:
         with:
           command: cves
           only-fixed: true
+          image: ${{ steps.meta.outputs.tags }}
